@@ -1,0 +1,144 @@
+text,category,priority
+WiFi is not working in the hostel since last week,Infrastructure,Medium
+The internet is down in my hostel room for 5 days,Infrastructure,Medium
+No electricity in the hostel block for 2 days,Infrastructure,High
+Water supply is not available in hostel block A,Infrastructure,Medium
+The classroom ceiling fan is broken and not working,Infrastructure,Low
+Drinking water cooler on second floor is not working,Infrastructure,Medium
+The college building roof is leaking during rain,Infrastructure,Medium
+Lab computers are outdated and cannot run software,Infrastructure,Low
+The parking area lights are broken at night,Infrastructure,Low
+The classroom projector has not been working for 2 months,Infrastructure,Medium
+Lift in academic block is out of service,Infrastructure,Medium
+The campus generator is not starting during power cuts,Infrastructure,High
+Canteen electricity is off and food is not cooked,Infrastructure,Medium
+Street lights on campus are not working at night,Infrastructure,Low
+Broken windows in classroom block C need repair,Infrastructure,Low
+Internet download speed in computer lab is very slow,Infrastructure,Medium
+WiFi password not given to new students in hostel,Infrastructure,Low
+Seminar hall air conditioner is not cooling,Infrastructure,Low
+The gas pipe in hostel kitchen has a leak,Hostel Problem,High
+There is a foul smell coming from hostel bathroom,Hostel Problem,Medium
+Hostel room has cockroaches and rats everywhere,Hostel Problem,High
+No hot water in hostel during winter season,Hostel Problem,Medium
+Hostel mess food is dirty and unhygienic,Hostel Problem,Medium
+Bathroom in hostel block A is not clean for weeks,Hostel Problem,Medium
+Hostel warden is rude and misbehaves with students,Hostel Problem,High
+Hostel curfew timings are too strict and unreasonable,Hostel Problem,Low
+There is no fire extinguisher in hostel corridor,Hostel Problem,High
+Hostel room roof is leaking during heavy rain,Hostel Problem,Medium
+Mosquitoes and insects are a problem in hostel rooms,Hostel Problem,Medium
+Hostel notice board is broken and outdated,Hostel Problem,Low
+Beds in hostel room are broken and uncomfortable,Hostel Problem,Low
+Hostel common room TV is not working,Hostel Problem,Low
+No dustbins in hostel corridors leads to unhygienic conditions,Hostel Problem,Medium
+I am being ragged by senior students in hostel,Ragging / Harassment,High
+Senior students are bullying and threatening juniors,Ragging / Harassment,High
+A group of seniors verbally abused me in the corridor,Ragging / Harassment,High
+Physical assault happened in the college hostel last night,Ragging / Harassment,High
+Students are being forced to do tasks by seniors,Ragging / Harassment,High
+Harassment and mental torture by batch mates,Ragging / Harassment,High
+A student was slapped and threatened near the canteen,Ragging / Harassment,High
+Seniors are using abusive language with freshers,Ragging / Harassment,High
+Ragging incident reported in hostel block C,Ragging / Harassment,High
+Violence and threats from seniors at night in hostel,Ragging / Harassment,High
+Female students are feeling unsafe due to harassment,Ragging / Harassment,High
+Sexual harassment complaint against hostel staff member,Ragging / Harassment,High
+Intimidation and bullying by a group of students,Ragging / Harassment,High
+New students are being hazed during orientation,Ragging / Harassment,High
+Cyberbullying happening in class group chats,Ragging / Harassment,High
+Library books are outdated and need new editions,Library Issue,Low
+Library is closed during examination time which is unfair,Library Issue,Medium
+No access to research journals and online resources,Library Issue,Low
+Photocopier in library is not working since 2 weeks,Library Issue,Low
+Library sitting capacity is not enough for all students,Library Issue,Low
+The library timing is too short and not convenient,Library Issue,Low
+Library staff is rude and unhelpful to students,Library Issue,Low
+Books I need for project are not available in library,Library Issue,Low
+Library internet terminals are broken and not maintained,Library Issue,Low
+New books ordered have not been received in library,Library Issue,Low
+Reference section of library needs to be updated urgently,Library Issue,Low
+Exam results not uploaded on the student portal,Exam Issue,Medium
+The grading was unfair and marks are wrong,Exam Issue,Medium
+Mid semester exam date was changed without notice,Exam Issue,Medium
+Re-evaluation request has not been processed,Exam Issue,Medium
+Answer sheets not returned after evaluation,Exam Issue,Low
+Exam hall seating was too crowded and uncomfortable,Exam Issue,Low
+Practical exam marks have not been submitted by teacher,Exam Issue,Medium
+Internal marks are incorrect in the system,Exam Issue,Medium
+Backlog exam schedule conflicts with regular exam,Exam Issue,Medium
+Admit card was not generated for my examination,Exam Issue,Medium
+Professor does not come to class regularly,Faculty Issue,High
+Faculty member uses inappropriate language in lectures,Faculty Issue,High
+Professor is biased and gives good marks to favorites only,Faculty Issue,Medium
+Teacher ignores student questions during lecture,Faculty Issue,Low
+Faculty member threatens students during practical lab,Faculty Issue,High
+Professor denied re-evaluation without valid reason,Faculty Issue,Medium
+Teacher is always late and ends class early,Faculty Issue,Medium
+Faculty cancelled most classes without any substitute,Faculty Issue,High
+Professor is not teaching the proper syllabus,Faculty Issue,Medium
+Teacher is rude and disrespectful towards students,Faculty Issue,Medium
+Faculty member asked for money to pass in internals,Faculty Issue,High
+Online class recordings are not being uploaded,Faculty Issue,Low
+ATM on campus is out of service for two weeks,Other,Low
+Scholarship amount has not been received this month,Other,Low
+The canteen food is not healthy and too expensive,Other,Low
+No ambulance or medical facility available on campus,Other,High
+Student ID card issuance is delayed by the admin office,Other,Low
+Bus timing is irregular and students miss classes,Other,Medium
+Parking space is insufficient for students,Other,Low
+Sports ground is not maintained and full of garbage,Other,Low
+The dean is not addressing student complaints,Other,Low
+College fee structure is not transparent,Other,Low
+No emergency contact system on campus at night,Other,High
+Student grievance cell is not functioning properly,Other,Medium
+Placement cell is not providing proper guidance,Other,Low
+The internet connection in library is very slow,Infrastructure,Medium
+There is no electricity in the hostel block B,Infrastructure,Medium
+The water supply in hostel is irregular,Hostel Problem,Medium
+There is severe harassment and ragging happening in hostel block C,Ragging / Harassment,High
+A senior student is threatening and bullying juniors in the campus,Ragging / Harassment,High
+I was abused and attacked by seniors near the hostel,Ragging / Harassment,High
+The library books are very old and not updated,Library Issue,Low
+Library is closed during exam time which is very inconvenient,Library Issue,Medium
+Results have not been uploaded on the portal yet,Exam Issue,Medium
+The grading system is unfair and professor gave wrong marks,Exam Issue,Medium
+The professor does not come to class regularly,Faculty Issue,High
+Faculty member uses inappropriate language in class,Faculty Issue,High
+The classroom projector is broken since 2 months,Infrastructure,Medium
+Drinking water cooler on third floor is not working,Infrastructure,Medium
+The hostel mess food quality is very bad and unhygienic,Hostel Problem,Medium
+Hostel room has cockroaches and rats,Hostel Problem,High
+There is no fire extinguisher in the hostel corridor,Hostel Problem,High
+The exam date sheet was changed without prior notice,Exam Issue,Medium
+The computer lab systems are outdated and very slow,Infrastructure,Low
+Faculty is not responding to student queries on email,Faculty Issue,Low
+I need access to research journals in the library,Library Issue,Low
+The canteen food is not clean and causes stomach issues,Other,Medium
+There is water leakage in the classroom ceiling,Infrastructure,Medium
+The bathroom in hostel block A is very dirty,Hostel Problem,Medium
+No ambulance or first aid available on campus,Other,High
+A student was physically assaulted on campus grounds,Ragging / Harassment,High
+The salary deduction was done incorrectly in scholarship,Other,Low
+Parking area lights are not working and it feels unsafe at night,Infrastructure,Medium
+Teacher is partial and gives good marks only to certain students,Faculty Issue,Medium
+The laboratory equipment is damaged and outdated,Infrastructure,Low
+I have not received my scholarship amount this month,Other,Low
+There is a gas leak smell near the hostel kitchen area,Hostel Problem,High
+Examination hall was too crowded with insufficient seating,Exam Issue,Medium
+The sports ground is not maintained and is full of garbage,Infrastructure,Low
+Hostel warden is misbehaving with female students,Hostel Problem,High
+Professor failed me without checking my answer sheet,Exam Issue,High
+New books are not available in library for core subjects,Library Issue,Low
+WiFi password was not given to new students in hostel,Infrastructure,Low
+The seminar hall AC is not cooling properly,Infrastructure,Low
+There is verbal abuse from a faculty member during lecture,Faculty Issue,High
+Photocopier machine in library is not working for weeks,Library Issue,Low
+An emergency drill was not conducted despite fire alarm test,Other,Medium
+The dean does not address student complaints properly,Other,Low
+Water heater in hostel is broken during winter season,Hostel Problem,Medium
+Internet download speed is extremely slow in computer lab,Infrastructure,Medium
+The academic schedule was changed abruptly without notice,Exam Issue,Low
+Senior students are forcing juniors to do their tasks,Ragging / Harassment,High
+Violence and threats are being made in the campus hostel,Ragging / Harassment,High
+The ATM on campus has been out of service for 2 weeks,Other,Low
