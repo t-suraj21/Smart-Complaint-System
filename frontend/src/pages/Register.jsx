@@ -37,63 +37,86 @@ export default function Register() {
   const set = (k) => (e) => setForm({ ...form, [k]: e.target.value });
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center py-8">
-      <div className="w-full max-w-md">
-        <div className="card">
-          <div className="text-center mb-6">
-            <UserPlus className="mx-auto text-blue-600 mb-2" size={36} />
-            <h1 className="text-2xl font-bold text-gray-900">Create Account</h1>
+    <section className="auth-shell">
+      <div className="auth-layout grid lg:grid-cols-2">
+        <div className="relative hidden lg:flex flex-col justify-between p-10 bg-gradient-to-br from-blue-950 via-blue-900 to-cyan-900 text-slate-100 overflow-hidden">
+          <div className="aurora-strip" />
+          <div className="relative z-10">
+            <p className="text-xs uppercase tracking-[0.2em] text-blue-100">Campus Voice Platform</p>
+            <h1 className="text-4xl mt-3 leading-tight">Create your account and start reporting smarter.</h1>
+            <p className="text-blue-100 mt-4 max-w-sm leading-relaxed">
+              Register as student or teacher, submit updates, and resolve campus concerns with transparent tracking.
+            </p>
           </div>
+          <div className="relative z-10 grid grid-cols-2 gap-3 text-xs">
+            <div className="rounded-xl border border-blue-200/30 bg-blue-900/30 p-3">
+              <p className="text-2xl font-bold">24/7</p>
+              <p className="text-blue-100">Complaint intake</p>
+            </div>
+            <div className="rounded-xl border border-blue-200/30 bg-blue-900/30 p-3">
+              <p className="text-2xl font-bold">AI</p>
+              <p className="text-blue-100">Auto categorization</p>
+            </div>
+          </div>
+        </div>
 
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-              <input type="text" required className="input-field" placeholder="John Doe" value={form.name} onChange={set('name')} />
+        <div className="p-6 sm:p-8 lg:p-10">
+          <div className="card bg-white/90">
+            <div className="text-center mb-6">
+              <UserPlus className="mx-auto text-blue-600 mb-2" size={34} />
+              <h2 className="text-3xl text-slate-900">Create Account</h2>
             </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-              <input type="email" required className="input-field" placeholder="you@college.edu" value={form.email} onChange={set('email')} />
-            </div>
-            <div className="grid grid-cols-2 gap-3">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Role</label>
-                <select className="input-field" value={form.role} onChange={set('role')}>
-                  <option value="student">Student</option>
-                  <option value="teacher">Teacher</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Department</label>
-                <select className="input-field" value={form.department} onChange={set('department')}>
-                  {DEPARTMENTS.map((d) => <option key={d}>{d}</option>)}
-                </select>
-              </div>
-            </div>
-            {form.role === 'student' && (
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Roll Number</label>
-                <input type="text" className="input-field" placeholder="e.g. 2021CS001" value={form.rollNumber} onChange={set('rollNumber')} />
-              </div>
-            )}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Password</label>
-              <input type="password" required className="input-field" placeholder="Min 6 characters" value={form.password} onChange={set('password')} />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Confirm Password</label>
-              <input type="password" required className="input-field" placeholder="Repeat password" value={form.confirmPassword} onChange={set('confirmPassword')} />
-            </div>
-            <button type="submit" disabled={loading} className="btn-primary w-full py-2.5 text-base">
-              {loading ? 'Creating account...' : 'Register'}
-            </button>
-          </form>
 
-          <p className="text-center text-sm text-gray-500 mt-4">
-            Already have an account?{' '}
-            <Link to="/login" className="text-blue-600 hover:underline font-medium">Sign in</Link>
-          </p>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
+                <input type="text" required className="input-field" placeholder="John Doe" value={form.name} onChange={set('name')} />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-1">Email Address</label>
+                <input type="email" required className="input-field" placeholder="you@college.edu" value={form.email} onChange={set('email')} />
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-sm font-medium text-slate-700 mb-1">Role</label>
+                  <select className="input-field" value={form.role} onChange={set('role')}>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-slate-700 mb-1">Department</label>
+                  <select className="input-field" value={form.department} onChange={set('department')}>
+                    {DEPARTMENTS.map((d) => <option key={d}>{d}</option>)}
+                  </select>
+                </div>
+              </div>
+              {form.role === 'student' && (
+                <div>
+                  <label className="block text-sm font-medium text-slate-700 mb-1">Roll Number</label>
+                  <input type="text" className="input-field" placeholder="e.g. 2021CS001" value={form.rollNumber} onChange={set('rollNumber')} />
+                </div>
+              )}
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-1">Password</label>
+                <input type="password" required className="input-field" placeholder="Min 6 characters" value={form.password} onChange={set('password')} />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-slate-700 mb-1">Confirm Password</label>
+                <input type="password" required className="input-field" placeholder="Repeat password" value={form.confirmPassword} onChange={set('confirmPassword')} />
+              </div>
+              <button type="submit" disabled={loading} className="btn-primary w-full py-2.5 text-base">
+                {loading ? 'Creating account...' : 'Register'}
+              </button>
+            </form>
+
+            <p className="text-center text-sm text-slate-500 mt-4">
+              Already have an account?{' '}
+              <Link to="/login" className="text-blue-700 hover:underline font-semibold">Sign in</Link>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

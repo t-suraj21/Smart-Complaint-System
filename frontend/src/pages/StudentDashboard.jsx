@@ -6,13 +6,13 @@ import ComplaintCard from '../components/ComplaintCard';
 import { PlusCircle, FileText, CheckCircle, Clock } from 'lucide-react';
 
 const StatCard = ({ label, value, icon: Icon, color }) => (
-  <div className="card flex items-center gap-4">
-    <div className={`p-3 rounded-xl ${color}`}>
-      <Icon size={24} className="text-white" />
+  <div className="card flex items-center gap-4 hover:-translate-y-0.5 transition-transform">
+    <div className={`p-3 rounded-2xl ${color} shadow-lg`}>
+      <Icon size={22} className="text-white" />
     </div>
     <div>
-      <p className="text-2xl font-bold text-gray-900">{value}</p>
-      <p className="text-sm text-gray-500">{label}</p>
+      <p className="text-2xl font-bold text-slate-900">{value}</p>
+      <p className="text-sm text-slate-500">{label}</p>
     </div>
   </div>
 );
@@ -49,37 +49,40 @@ export default function StudentDashboard() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">Welcome, {user.name}!</h1>
-          <p className="text-gray-500 text-sm mt-0.5">{user.department} · {user.rollNumber}</p>
+      <section className="card relative overflow-hidden">
+        <div className="aurora-strip" />
+        <div className="relative z-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-[0.16em] text-blue-800">Student Panel</p>
+            <h1 className="text-3xl text-slate-900 mt-1">Welcome, {user.name}</h1>
+            <p className="text-slate-600 text-sm mt-1">
+              {user.department}{user.rollNumber ? ` · ${user.rollNumber}` : ''}
+            </p>
+          </div>
+          <Link to="/student/submit" className="btn-primary inline-flex items-center justify-center gap-2 whitespace-nowrap">
+            <PlusCircle size={18} />
+            New Complaint
+          </Link>
         </div>
-        <Link to="/student/submit" className="btn-primary flex items-center gap-2">
-          <PlusCircle size={18} />
-          <span className="hidden sm:block">New Complaint</span>
-        </Link>
-      </div>
+      </section>
 
-      {/* Stats */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <StatCard label="Total" value={stats.total} icon={FileText} color="bg-blue-500" />
-        <StatCard label="Pending" value={stats.pending} icon={Clock} color="bg-yellow-500" />
+        <StatCard label="Total" value={stats.total} icon={FileText} color="bg-blue-600" />
+        <StatCard label="Pending" value={stats.pending} icon={Clock} color="bg-amber-500" />
         <StatCard label="In Progress" value={stats.inProgress} icon={Clock} color="bg-orange-500" />
-        <StatCard label="Solved" value={stats.solved} icon={CheckCircle} color="bg-green-500" />
+        <StatCard label="Solved" value={stats.solved} icon={CheckCircle} color="bg-emerald-500" />
       </div>
 
-      {/* Complaint list */}
-      <div className="card">
+      <section className="card">
         <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-          <h2 className="font-semibold text-lg text-gray-800">My Complaints</h2>
+          <h2 className="text-2xl text-slate-900">My Complaints</h2>
           <div className="flex gap-2 flex-wrap">
             {['all', 'Pending', 'In Progress', 'Solved'].map((f) => (
               <button
                 key={f}
                 onClick={() => setFilter(f)}
-                className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
-                  filter === f ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                className={`text-xs px-3 py-1.5 rounded-full font-semibold transition-colors ${
+                  filter === f ? 'bg-blue-700 text-white' : 'bg-blue-50 text-slate-600 hover:bg-blue-100'
                 }`}
               >
                 {f === 'all' ? 'All' : f}
@@ -93,11 +96,11 @@ export default function StudentDashboard() {
             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
           </div>
         ) : filtered.length === 0 ? (
-          <div className="text-center py-12 text-gray-400">
+          <div className="text-center py-12 text-slate-400">
             <FileText size={40} className="mx-auto mb-3 opacity-40" />
             <p className="font-medium">No complaints found</p>
             <p className="text-sm mt-1">
-              <Link to="/student/submit" className="text-blue-600 hover:underline">Submit your first complaint</Link>
+              <Link to="/student/submit" className="text-blue-700 hover:underline">Submit your first complaint</Link>
             </p>
           </div>
         ) : (
@@ -105,7 +108,7 @@ export default function StudentDashboard() {
             {filtered.map((c) => <ComplaintCard key={c._id} complaint={c} />)}
           </div>
         )}
-      </div>
+      </section>
     </div>
   );
 }
