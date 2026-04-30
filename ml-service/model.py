@@ -1,5 +1,5 @@
 """
-model.py – NLP preprocessing and model definitions for the complaint
+model.py - NLP preprocessing and model definitions for the complaint
 analysis system.
 """
 
@@ -14,6 +14,9 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 import joblib
 import os
+from autocorrect import Speller
+
+spell = Speller(lang='en')
 
 # Download required NLTK data on first run
 for package in ['stopwords', 'punkt', 'wordnet']:
@@ -36,11 +39,13 @@ except Exception:
 
 
 def clean_text(text: str) -> str:
-    """Lowercase, remove punctuation, remove stop words, apply stemming."""
+    """Lowercase, spell-correct, remove punctuation, remove stop words, apply stemming."""
     text = text.lower()
     text = text.translate(str.maketrans('', '', string.punctuation))
     text = re.sub(r'\d+', '', text)
     tokens = text.split()
+    # Spell correction: fix typos before stemming
+    tokens = [spell(w) if len(w) > 2 else w for w in tokens]
     tokens = [stemmer.stem(w) for w in tokens if w not in stop_words and len(w) > 2]
     return ' '.join(tokens)
 
@@ -61,7 +66,7 @@ def build_priority_pipeline():
 
 def save_model(model, path: str):
     joblib.dump(model, path)
-    print(f'Model saved → {path}')
+    print(f'Model saved -> {path}')
 
 
 def load_model(path: str):
@@ -90,3 +95,47 @@ def detect_sentiment(text: str) -> str:
     if pos > neg:
         return 'Positive'
     return 'Neutral'
+
+
+def extract_keywords(text: str, model, top_n: int = 5) -> list:
+    """
+    Extract the most important keywords from a complaint.
+    Returns readable words from the original text (not stemmed).
+    """
+    import numpy as np
+    import re as _re
+
+    # Get TF-IDF vectorizer and scores
+    tfidf = model.named_steps['tfidf']
+    cleaned = clean_text(text)
+    tfidf_vector = tfidf.transform([cleaned])
+    feature_names = tfidf.get_feature_names_out()
+    scores = tfidf_vector.toarray()[0]
+
+    # Get top stemmed keywords by TF-IDF score
+    top_indices = np.argsort(scores)[::-1]
+    stemmed_keywords = []
+    for idx in top_indices:
+        if scores[idx] > 0 and len(stemmed_keywords) < top_n * 2:
+            word = feature_names[idx]
+            # Skip bigrams, keep only single words for cleaner output
+            if ' ' not in word:
+                stemmed_keywords.append(word)
+
+    # Spell-correct original words, then map stemmed keywords back
+    raw_words = _re.sub(r'[^\w\s]', '', text.lower()).split()
+    corrected_words = [spell(w) if len(w) > 2 else w for w in raw_words]
+    keywords = []
+    used = set()
+    for stem in stemmed_keywords:
+        for corrected in corrected_words:
+            if corrected not in used and corrected not in stop_words and len(corrected) > 2:
+                if stemmer.stem(corrected) == stem:
+                    keywords.append(corrected)
+                    used.add(corrected)
+                    break
+        if len(keywords) >= top_n:
+            break
+
+    return keywords
+

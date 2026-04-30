@@ -1,9 +1,9 @@
 """
-app.py – Flask API server for the NLP complaint analysis service.
+app.py - Flask API server for the NLP complaint analysis service.
 Endpoints:
-  POST /predict   { "text": "..." } → { category, priority, ... }
-  GET  /health    → { status: "ok" }
-  POST /train     → triggers model retraining (admin only)
+  POST /predict   { "text": "..." } -> { category, priority, ... }
+  GET  /health    -> { status: "ok" }
+  POST /train     -> triggers model retraining (admin only)
 
 Run:
   python train.py   # first time to create models
@@ -16,7 +16,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# ── Lazy-load predict only after train has run ──────────────────────────────
+# Lazy-load predict only after train has run
 predict_fn = None
 
 
@@ -79,16 +79,16 @@ def retrain_route():
 
 if __name__ == '__main__':
     port = int(os.environ.get('ML_PORT', 5001))
-    print(f'🤖 NLP ML Service starting on port {port}')
+    print(f'[*] NLP ML Service starting on port {port}')
 
     # Auto-train if models don't exist
     from model import CATEGORY_MODEL_PATH, PRIORITY_MODEL_PATH
     if not os.path.exists(CATEGORY_MODEL_PATH) or not os.path.exists(PRIORITY_MODEL_PATH):
-        print('📚 Models not found. Training now...')
+        print('Models not found. Training now...')
         try:
             import train as train_module
             train_module.train()
         except Exception as e:
-            print(f'⚠️  Auto-training failed: {e}')
+            print(f'Auto-training failed: {e}')
 
     app.run(host='0.0.0.0', port=port, debug=False)
