@@ -1,5 +1,5 @@
 """
-train.py – Train and save category and priority classification models.
+train.py - Train and save category and priority classification models.
 Run: python train.py
 """
 
@@ -20,15 +20,15 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), 'data', 'training_data.csv')
 
 
 def train():
-    print('📂 Loading training data...')
+    print('[*] Loading training data...')
     df = pd.read_csv(DATA_PATH)
     print(f'   {len(df)} samples loaded')
 
     # Clean text
     df['cleaned'] = df['text'].apply(clean_text)
 
-    # ── Category model ──────────────────────────────────────────────────────
-    print('\n🔧 Training Category model...')
+    # Category model
+    print('\n[*] Training Category model...')
     X_cat = df['cleaned']
     y_cat = df['category']
 
@@ -44,8 +44,8 @@ def train():
     print(classification_report(y_test, y_pred, zero_division=0))
     save_model(cat_model, CATEGORY_MODEL_PATH)
 
-    # ── Priority model ──────────────────────────────────────────────────────
-    print('\n🔧 Training Priority model...')
+    # Priority model
+    print('\n[*] Training Priority model...')
     X_pri = df['cleaned']
     y_pri = df['priority']
 
@@ -61,7 +61,7 @@ def train():
     print(classification_report(y_test2, y_pred2, zero_division=0))
     save_model(pri_model, PRIORITY_MODEL_PATH)
 
-    print('\n✅ Training complete! Models saved.')
+    print('\n[OK] Training complete! Models saved.')
 
 
 if __name__ == '__main__':

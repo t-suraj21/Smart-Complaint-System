@@ -11,27 +11,27 @@ The parking area lights are broken at night,Infrastructure,Low
 The classroom projector has not been working for 2 months,Infrastructure,Medium
 Lift in academic block is out of service,Infrastructure,Medium
 The campus generator is not starting during power cuts,Infrastructure,High
-Canteen electricity is off and food is not cooked,Infrastructure,Medium
+Canteen electricity is off and food is not cooked,Other,Medium
 Street lights on campus are not working at night,Infrastructure,Low
 Broken windows in classroom block C need repair,Infrastructure,Low
 Internet download speed in computer lab is very slow,Infrastructure,Medium
 WiFi password not given to new students in hostel,Infrastructure,Low
 Seminar hall air conditioner is not cooling,Infrastructure,Low
-The gas pipe in hostel kitchen has a leak,Hostel Problem,High
-There is a foul smell coming from hostel bathroom,Hostel Problem,Medium
-Hostel room has cockroaches and rats everywhere,Hostel Problem,High
-No hot water in hostel during winter season,Hostel Problem,Medium
-Hostel mess food is dirty and unhygienic,Hostel Problem,Medium
-Bathroom in hostel block A is not clean for weeks,Hostel Problem,Medium
-Hostel warden is rude and misbehaves with students,Hostel Problem,High
-Hostel curfew timings are too strict and unreasonable,Hostel Problem,Low
-There is no fire extinguisher in hostel corridor,Hostel Problem,High
-Hostel room roof is leaking during heavy rain,Hostel Problem,Medium
-Mosquitoes and insects are a problem in hostel rooms,Hostel Problem,Medium
-Hostel notice board is broken and outdated,Hostel Problem,Low
-Beds in hostel room are broken and uncomfortable,Hostel Problem,Low
-Hostel common room TV is not working,Hostel Problem,Low
-No dustbins in hostel corridors leads to unhygienic conditions,Hostel Problem,Medium
+The gas pipe in hostel kitchen has a leak,Hostel,High
+There is a foul smell coming from hostel bathroom,Hostel,Medium
+Hostel room has cockroaches and rats everywhere,Hostel,High
+No hot water in hostel during winter season,Hostel,Medium
+Hostel mess food is dirty and unhygienic,Hostel,Medium
+Bathroom in hostel block A is not clean for weeks,Hostel,Medium
+Hostel warden is rude and misbehaves with students,Hostel,High
+Hostel curfew timings are too strict and unreasonable,Hostel,Low
+There is no fire extinguisher in hostel corridor,Hostel,High
+Hostel room roof is leaking during heavy rain,Hostel,Medium
+Mosquitoes and insects are a problem in hostel rooms,Hostel,Medium
+Hostel notice board is broken and outdated,Hostel,Low
+Beds in hostel room are broken and uncomfortable,Hostel,Low
+Hostel common room TV is not working,Hostel,Low
+No dustbins in hostel corridors leads to unhygienic conditions,Hostel,Medium
 I am being ragged by senior students in hostel,Ragging / Harassment,High
 Senior students are bullying and threatening juniors,Ragging / Harassment,High
 A group of seniors verbally abused me in the corridor,Ragging / Harassment,High
@@ -95,7 +95,7 @@ Student grievance cell is not functioning properly,Other,Medium
 Placement cell is not providing proper guidance,Other,Low
 The internet connection in library is very slow,Infrastructure,Medium
 There is no electricity in the hostel block B,Infrastructure,Medium
-The water supply in hostel is irregular,Hostel Problem,Medium
+The water supply in hostel is irregular,Hostel,Medium
 There is severe harassment and ragging happening in hostel block C,Ragging / Harassment,High
 A senior student is threatening and bullying juniors in the campus,Ragging / Harassment,High
 I was abused and attacked by seniors near the hostel,Ragging / Harassment,High
@@ -103,20 +103,18 @@ The library books are very old and not updated,Library Issue,Low
 Library is closed during exam time which is very inconvenient,Library Issue,Medium
 Results have not been uploaded on the portal yet,Exam Issue,Medium
 The grading system is unfair and professor gave wrong marks,Exam Issue,Medium
-The professor does not come to class regularly,Faculty Issue,High
 Faculty member uses inappropriate language in class,Faculty Issue,High
 The classroom projector is broken since 2 months,Infrastructure,Medium
 Drinking water cooler on third floor is not working,Infrastructure,Medium
-The hostel mess food quality is very bad and unhygienic,Hostel Problem,Medium
-Hostel room has cockroaches and rats,Hostel Problem,High
-There is no fire extinguisher in the hostel corridor,Hostel Problem,High
+The hostel mess food quality is very bad and unhygienic,Hostel,Medium
+There is no fire extinguisher in the hostel corridor,Hostel,High
 The exam date sheet was changed without prior notice,Exam Issue,Medium
 The computer lab systems are outdated and very slow,Infrastructure,Low
 Faculty is not responding to student queries on email,Faculty Issue,Low
 I need access to research journals in the library,Library Issue,Low
 The canteen food is not clean and causes stomach issues,Other,Medium
 There is water leakage in the classroom ceiling,Infrastructure,Medium
-The bathroom in hostel block A is very dirty,Hostel Problem,Medium
+The bathroom in hostel block A is very dirty,Hostel,Medium
 No ambulance or first aid available on campus,Other,High
 A student was physically assaulted on campus grounds,Ragging / Harassment,High
 The salary deduction was done incorrectly in scholarship,Other,Low
@@ -124,10 +122,10 @@ Parking area lights are not working and it feels unsafe at night,Infrastructure,
 Teacher is partial and gives good marks only to certain students,Faculty Issue,Medium
 The laboratory equipment is damaged and outdated,Infrastructure,Low
 I have not received my scholarship amount this month,Other,Low
-There is a gas leak smell near the hostel kitchen area,Hostel Problem,High
+There is a gas leak smell near the hostel kitchen area,Hostel,High
 Examination hall was too crowded with insufficient seating,Exam Issue,Medium
-The sports ground is not maintained and is full of garbage,Infrastructure,Low
-Hostel warden is misbehaving with female students,Hostel Problem,High
+The sports ground is not maintained and is full of garbage,Other,Low
+Hostel warden is misbehaving with female students,Hostel,High
 Professor failed me without checking my answer sheet,Exam Issue,High
 New books are not available in library for core subjects,Library Issue,Low
 WiFi password was not given to new students in hostel,Infrastructure,Low
@@ -136,9 +134,540 @@ There is verbal abuse from a faculty member during lecture,Faculty Issue,High
 Photocopier machine in library is not working for weeks,Library Issue,Low
 An emergency drill was not conducted despite fire alarm test,Other,Medium
 The dean does not address student complaints properly,Other,Low
-Water heater in hostel is broken during winter season,Hostel Problem,Medium
+Water heater in hostel is broken during winter season,Hostel,Medium
 Internet download speed is extremely slow in computer lab,Infrastructure,Medium
 The academic schedule was changed abruptly without notice,Exam Issue,Low
 Senior students are forcing juniors to do their tasks,Ragging / Harassment,High
 Violence and threats are being made in the campus hostel,Ragging / Harassment,High
 The ATM on campus has been out of service for 2 weeks,Other,Low
+The basketball court is in poor condition and needs maintenance,Sports,Medium
+no complaints,No Issue,Low
+milk is always diluted with water,Mess,Medium
+The hostel room is too small for 3 people,Hostel,Low
+The syllabus is very outdated and not used in the industry,Academics,Medium
+The sports ground is always occupied by senior students,Sports,Medium
+na,No Issue,Low
+The same potato curry is served daily and students are tired of it,Mess,Low
+Project evaluation is very biased and only favorites get good marks,Academics,Medium
+Lab equipments don't work properly half the time,Academics,Low
+The medical facility exists only in name and is useless,Medical,Low
+Breakfast is okay but dinner is worst,Mess,Medium
+No issue,No Issue,Low
+Mess staff behaves rudely when students ask for extra bread,Mess,Medium
+Attendance criteria is too strict and medical leave is not granted properly,Academics,Medium
+WiFi speed is extremely slow and even YouTube keeps buffering,Hostel,Low
+The mess food is very bad and students have to order food from outside,Mess,Medium
+"Only basic first aid available, for anything serious have to go outside",Medical,Medium
+Too much unnecessary pressure during placement season,Academics,Medium
+The hostel room is too small for 3 people,Hostel,Low
+"hostel timing is very restrictive, cant even go to library late night",Hostel,Medium
+The hostel room is too small for 3 people,Hostel,Low
+Everything is fine no complaints,No Issue,Low
+Mess food is too oily and the same menu keeps repeating,Mess,Medium
+Sports timings are very odd and students cannot play after 8 PM,Sports,Low
+The mess food is very bad and students have to order food from outside,Mess,Medium
+The hostel warden unnecessarily harasses and troubles students,Hostel,Low
+Mess staff behaves rudely when students ask for extra bread,Mess,Medium
+Everything except the Sunday special meal is terrible,Mess,Medium
+Everything is fine no complaints,No Issue,Low
+Everything except the Sunday special meal is terrible,Mess,Medium
+No issues everything is fine,No Issue,Low
+Teaching quality is very poor and students have to self study,Academics,Medium
+Too much unnecessary pressure during placement season,Academics,Medium
+No issues everything is fine,No Issue,Low
+insects in dal yesterday 🤢 hygiene is zero,Mess,Medium
+No issues everything is fine,No Issue,Low
+no proper bed for resting if feeling dizzy,Medical,Low
+Lab equipments don't work properly half the time,Academics,Low
+"Only basic first aid available, for anything serious have to go outside",Medical,Medium
+There are too many surprise tests,Academics,Low
+milk is always diluted with water,Mess,Medium
+No issues everything is okay,No Issue,Low
+Gym machines have been broken for 6 months and nobody repairs them,Sports,Low
+No issue,No Issue,Low
+all good,No Issue,Low
+Breakfast is okay but dinner is worst,Mess,Medium
+Too much assignment pressure during exams,Academics,Medium
+Everything is fine no complaints,No Issue,Low
+The chapati is always undercooked and feels like rubber,Mess,Medium
+everything is fine,No Issue,Low
+Project evaluation is very biased and only favorites get good marks,Academics,Medium
+"Insects in room sometimes, pest control needed urgently",Hostel,Medium
+The 75 percent attendance requirement is very stressful,Academics,Medium
+Lab equipments don't work properly half the time,Academics,Low
+everything is fine,No Issue,Low
+insects in dal yesterday 🤢 hygiene is zero,Mess,Medium
+Some faculties are good but mostly just read slides.,Academics,Low
+The mess food is very bad and students have to order food from outside,Mess,Medium
+milk is always diluted with water,Mess,Medium
+The syllabus is very outdated and not used in the industry,Academics,Medium
+No issues everything is okay,No Issue,Low
+na,No Issue,Low
+The dispensary is closed on weekends so students cannot fall sick then,Medical,Medium
+The hostel warden unnecessarily harasses and troubles students,Hostel,Low
+Breakfast is okay but dinner is worst,Mess,Medium
+Nothing,No Issue,Low
+Teaching quality is very poor and students have to self study,Academics,Medium
+everything is fine,No Issue,Low
+Teaching quality is very poor and students have to self study,Academics,Medium
+Mess food is too oily and the same menu keeps repeating,Mess,Medium
+The syllabus is very outdated and not used in the industry,Academics,Medium
+Nothing,No Issue,Low
+insects in dal yesterday 🤢 hygiene is zero,Mess,Medium
+Washrooms are very dirty and there is a foul smell,Hostel,Medium
+Everything except the Sunday special meal is terrible,Mess,Medium
+No issue,No Issue,Low
+No doctor available at night during emergency,Medical,High
+no proper bed for resting if feeling dizzy,Medical,Low
+Hostel duct system is not working properly and rooms become suffocating,Hostel,Medium
+Classes are so boring that students fall asleep,Academics,Medium
+Attendance criteria is too strict and medical leave is not granted properly,Academics,Medium
+Gym machines have been broken for 6 months and nobody repairs them,Sports,Low
+Mess food is too oily and the same menu keeps repeating,Mess,Medium
+no complaints,No Issue,Low
+The compounder acts as the doctor here with no real doctor available,Medical,Medium
+Nothing,No Issue,Low
+The chapati is always undercooked and feels like rubber,Mess,Medium
+Washrooms are very dirty and there is a foul smell,Hostel,Medium
+Hostel duct system is not working properly and rooms become suffocating,Hostel,Medium
+Teachers only read from PPT slides and nothing is understood,Academics,Low
+The food is too oily and causes stomach problems daily,Mess,Medium
+The hostel warden unnecessarily harasses and troubles students,Hostel,Low
+cleaning staff doesnt come regularly,Hostel,Low
+No issues everything is okay,No Issue,Low
+The dispensary only gives paracetamol for every illness,Medical,Medium
+Gym machines have been broken for 6 months and nobody repairs them,Sports,Low
+Everything is going well no issues,No Issue,Low
+Too much unnecessary pressure during placement season,Academics,Medium
+Mess staff behaves rudely when students ask for extra bread,Mess,Medium
+Everything is going well no issues,No Issue,Low
+Hostel duct system is not working properly and rooms become suffocating,Hostel,Medium
+Need more badminton shuttlecocks,Sports,Low
+"Beds are making noise, mattress is very thin",Hostel,Medium
+The food is too oily and causes stomach problems daily,Mess,Medium
+Everything is going well no issues,No Issue,Low
+Project evaluation is very biased and only favorites get good marks,Academics,Medium
+"Insects in room sometimes, pest control needed urgently",Hostel,Medium
+The laundry service damages and ruins clothes,Hostel,Medium
+Students have to rely only on rote learning here,Academics,High
+The same potato curry is served daily and students are tired of it,Mess,Low
+all good,No Issue,Low
+all good,No Issue,Low
+The sweet dish runs out too quickly and is never enough,Mess,Low
+Hygiene is terrible and plates are not washed properly,Mess,Low
+"doctor behavior is not good, doesn't listen properly",Medical,Low
+no complaints,No Issue,Low
+Hygiene is terrible and plates are not washed properly,Mess,Low
+The chapati is always undercooked and feels like rubber,Mess,Medium
+Too much assignment pressure during exams,Academics,Medium
+The sweet dish runs out too quickly and is never enough,Mess,Low
+The sweet dish runs out too quickly and is never enough,Mess,Low
+There is a water problem and no hot water is available in winter mornings,Hostel,Low
+"Beds are making noise, mattress is very thin",Hostel,Medium
+The same potato curry is served daily and students are tired of it,Mess,Low
+The compounder acts as the doctor here with no real doctor available,Medical,Medium
+na,No Issue,Low
+"Only basic first aid available, for anything serious have to go outside",Medical,Medium
+"Insects in room sometimes, pest control needed urgently",Hostel,Medium
+Students have to rely only on rote learning here,Academics,High
+The paneer dish is just water and food coloring with no real paneer,Mess,Low
+The food is too oily and causes stomach problems daily,Mess,Medium
+water cooler on 2nd floor is always empty or not working,Hostel,Medium
+The medicines provided are sometimes expired and should be checked,Medical,Medium
+The medical facility exists only in name and is useless,Medical,Low
+Too much assignment pressure during exams,Academics,Medium
+Hygiene is terrible and plates are not washed properly,Mess,Low
+Some faculties are good but mostly just read slides.,Academics,Low
+The hostel has no ventilation and it is extremely hot,Hostel,Medium
+"Beds are making noise, mattress is very thin",Hostel,Medium
+"doctor behavior is not good, doesn't listen properly",Medical,Low
+The sports ground is always occupied by senior students,Sports,Medium
+"hostel timing is very restrictive, cant even go to library late night",Hostel,Medium
+WiFi speed is extremely slow and even YouTube keeps buffering,Hostel,Low
+The dispensary is closed on weekends so students cannot fall sick then,Medical,Medium
+WiFi speed is extremely slow and even YouTube keeps buffering,Hostel,Low
+Some faculties are good but mostly just read slides.,Academics,Low
+The laundry service damages and ruins clothes,Hostel,Medium
+There are too many surprise tests,Academics,Low
+The medical facility exists only in name and is useless,Medical,Low
+no proper coach or guide for any sport,Sports,Low
+Classes are so boring that students fall asleep,Academics,Medium
+There is no practical knowledge here only theory is taught,Academics,Low
+Need more badminton shuttlecocks,Sports,Low
+no proper coach or guide for any sport,Sports,Low
+There is a water problem and no hot water is available in winter mornings,Hostel,Low
+There are too many surprise tests,Academics,Low
+There is a water problem and no hot water is available in winter mornings,Hostel,Low
+The sports ground is always occupied by senior students,Sports,Medium
+Students have to rely only on rote learning here,Academics,High
+indoor games room is always locked,Sports,Medium
+The 75 percent attendance requirement is very stressful,Academics,Medium
+no proper bed for resting if feeling dizzy,Medical,Low
+Sports equipment is not available and students must bring their own,Sports,Low
+Grass is too big on the football ground,Sports,Low
+The paneer dish is just water and food coloring with no real paneer,Mess,Low
+Need more badminton shuttlecocks,Sports,Low
+Attendance criteria is too strict and medical leave is not granted properly,Academics,Medium
+indoor games room is always locked,Sports,Medium
+Assignments and mid semester exams happen together with no time to prepare,Academics,Low
+Teachers only read from PPT slides and nothing is understood,Academics,Low
+No doctor available at night during emergency,Medical,High
+The dispensary is closed on weekends so students cannot fall sick then,Medical,Medium
+Classes are so boring that students fall asleep,Academics,Medium
+The 75 percent attendance requirement is very stressful,Academics,Medium
+Grass is too big on the football ground,Sports,Low
+The dispensary only gives paracetamol for every illness,Medical,Medium
+The paneer dish is just water and food coloring with no real paneer,Mess,Low
+Assignments and mid semester exams happen together with no time to prepare,Academics,Low
+Sports equipment is not available and students must bring their own,Sports,Low
+"hostel timing is very restrictive, cant even go to library late night",Hostel,Medium
+No doctor available at night during emergency,Medical,High
+Teachers only read from PPT slides and nothing is understood,Academics,Low
+cleaning staff doesnt come regularly,Hostel,Low
+The dispensary only gives paracetamol for every illness,Medical,Medium
+Sports timings are very odd and students cannot play after 8 PM,Sports,Low
+water cooler on 2nd floor is always empty or not working,Hostel,Medium
+The medicines provided are sometimes expired and should be checked,Medical,Medium
+Grass is too big on the football ground,Sports,Low
+Assignments and mid semester exams happen together with no time to prepare,Academics,Low
+water cooler on 2nd floor is always empty or not working,Hostel,Medium
+ambulance driver is very rude,Medical,Medium
+indoor games room is always locked,Sports,Medium
+cleaning staff doesnt come regularly,Hostel,Low
+The basketball court is in poor condition and needs maintenance,Sports,Medium
+no proper coach or guide for any sport,Sports,Low
+There is no practical knowledge here only theory is taught,Academics,Low
+The medicines provided are sometimes expired and should be checked,Medical,Medium
+There is no practical knowledge here only theory is taught,Academics,Low
+"doctor behavior is not good, doesn't listen properly",Medical,Low
+The compounder acts as the doctor here with no real doctor available,Medical,Medium
+Sports equipment is not available and students must bring their own,Sports,Low
+Washrooms are very dirty and there is a foul smell,Hostel,Medium
+ambulance driver is very rude,Medical,Medium
+ambulance driver is very rude,Medical,Medium
+The basketball court is in poor condition and needs maintenance,Sports,Medium
+Sports timings are very odd and students cannot play after 8 PM,Sports,Low
+The laundry service damages and ruins clothes,Hostel,Medium
+The hostel has no ventilation and it is extremely hot,Hostel,Medium
+The hostel has no ventilation and it is extremely hot,Hostel,Medium
+Lights not working on the tennis court,Sports,Medium
+Lights not working on the tennis court,Sports,Medium
+The attendance criteria is too strict,Academics,Medium
+"Too much pressure during placements, assignments + exams ek sath",Academics,Medium
+How to prepare for exams and placements at the same time,Academics,Low
+too many surprise tests,Academics,Low
+The attendance criteria is too strict,Academics,Medium
+The 75 percent attendance rule is useless and frustrating,Academics,Low
+How to prepare for exams and placements at the same time,Academics,Low
+The attendance criteria is too strict,Academics,Medium
+The 75 percent attendance rule is useless and frustrating,Academics,Low
+Syllabus is outdated and not relevant to industry requirements,Academics,Medium
+Syllabus is outdated and not relevant to industry requirements,Academics,Medium
+Mid sems are scheduled too closely,Academics,Low
+Syllabus is outdated and not relevant to industry requirements,Academics,Medium
+"Too much pressure during placements, assignments + exams ek sath",Academics,Medium
+project evaluation is very biased,Academics,Medium
+How to prepare for exams and placements at the same time,Academics,Low
+too many surprise tests,Academics,Low
+Classes are very boring and unengaging,Academics,Medium
+There are too many assignments and no time to complete them,Academics,Low
+The 75 percent attendance rule is useless and frustrating,Academics,Low
+"Too much pressure during placements, assignments + exams ek sath",Academics,Medium
+too many surprise tests,Academics,Low
+"No practical exposure, only theory theory theory",Academics,Low
+project evaluation is very biased,Academics,Medium
+"No practical exposure, only theory theory theory",Academics,Low
+Classes are very boring and unengaging,Academics,Medium
+"No practical exposure, only theory theory theory",Academics,Low
+project evaluation is very biased,Academics,Medium
+Mid sems are scheduled too closely,Academics,Low
+Classes are very boring and unengaging,Academics,Medium
+There are too many assignments and no time to complete them,Academics,Low
+Mid sems are scheduled too closely,Academics,Low
+There are too many assignments and no time to complete them,Academics,Low
+no hot water in winters,Hostel,Low
+hostel timing is very restrictive,Hostel,Medium
+Warden is too strict for no reason,Hostel,Medium
+no hot water in winters,Hostel,Low
+"Duct system not working in hostel, room becomes suffocating",Hostel,Medium
+"Duct system not working in hostel, room becomes suffocating",Hostel,Medium
+Warden is too strict for no reason,Hostel,Medium
+Room is too small for 3 people,Hostel,Low
+hostel timing is very restrictive,Hostel,Medium
+Washrooms are not clean and there is a bad smell,Hostel,Medium
+hostel timing is very restrictive,Hostel,Medium
+"Insects in room sometimes, pest control needed",Hostel,Medium
+Laundry takes too much time,Hostel,Low
+"Duct system not working in hostel, room becomes suffocating",Hostel,Medium
+"Insects in room sometimes, pest control needed",Hostel,Medium
+Water cooler not working on 3rd floor,Hostel,Medium
+Washrooms are not clean and there is a bad smell,Hostel,Medium
+Warden is too strict for no reason,Hostel,Medium
+Laundry takes too much time,Hostel,Low
+Water cooler not working on 3rd floor,Hostel,Medium
+"Wifi speed is very slow, cant even open youtube",Hostel,Medium
+no hot water in winters,Hostel,Low
+Laundry takes too much time,Hostel,Low
+"Wifi speed is very slow, cant even open youtube",Hostel,Medium
+"Insects in room sometimes, pest control needed",Hostel,Medium
+Room is too small for 3 people,Hostel,Low
+Water cooler not working on 3rd floor,Hostel,Medium
+Washrooms are not clean and there is a bad smell,Hostel,Medium
+"Wifi speed is very slow, cant even open youtube",Hostel,Medium
+Room is too small for 3 people,Hostel,Low
+sweet dish is never enough,Mess,Low
+sweet dish is never enough,Mess,Low
+"Menu is very repetitive, bore ho gaye kha kha ke",Mess,Medium
+sweet dish is never enough,Mess,Low
+Chapati is like rubber,Mess,Medium
+"Hygiene is a big issue, plates are not washed properly",Mess,Low
+Paneer is just water and food color,Mess,Low
+food is too spicy and oily,Mess,Medium
+"Menu is very repetitive, bore ho gaye kha kha ke",Mess,Medium
+Stomach upset after eating mess food,Mess,Medium
+Chapati is like rubber,Mess,Medium
+food is too spicy and oily,Mess,Medium
+"Mess food oily hai, same aloo everyday, chapati bhi half cooked",Mess,Medium
+Stomach upset after eating mess food,Mess,Medium
+Paneer is just water and food color,Mess,Low
+"Hygiene is a big issue, plates are not washed properly",Mess,Low
+Paneer is just water and food color,Mess,Low
+"Sunday special is good, rest is trash",Mess,Low
+The mess food is very bad and students have to eat outside daily,Mess,Medium
+"Sunday special is good, rest is trash",Mess,Low
+"Menu is very repetitive, bore ho gaye kha kha ke",Mess,Medium
+"Sunday special is good, rest is trash",Mess,Low
+Chapati is like rubber,Mess,Medium
+Insects found in dal yesterday 🤢,Mess,Medium
+Insects found in dal yesterday 🤢,Mess,Medium
+"Hygiene is a big issue, plates are not washed properly",Mess,Low
+Stomach upset after eating mess food,Mess,Medium
+The mess food is very bad and students have to eat outside daily,Mess,Medium
+food is too spicy and oily,Mess,Medium
+Insects found in dal yesterday 🤢,Mess,Medium
+The mess food is very bad and students have to eat outside daily,Mess,Medium
+"Mess food oily hai, same aloo everyday, chapati bhi half cooked",Mess,Medium
+"Mess food oily hai, same aloo everyday, chapati bhi half cooked",Mess,Medium
+"Compounder gives medicine, no real doctor",Medical,Medium
+"Compounder gives medicine, no real doctor",Medical,Medium
+Doctor is never available at night during emergency,Medical,High
+"Compounder gives medicine, no real doctor",Medical,Medium
+"Medical facility naam ki hi hai, same medicine for everything",Medical,Medium
+doctor behavior is not good,Medical,Low
+Ambulance driver is rude,Medical,Medium
+"Medical facility naam ki hi hai, same medicine for everything",Medical,Medium
+"Medicines are expired sometimes, check before taking",Medical,Medium
+doctor behavior is not good,Medical,Low
+Ambulance driver is rude,Medical,Medium
+The dispensary is closed on weekends when students need it,Medical,Medium
+"Medical facility naam ki hi hai, same medicine for everything",Medical,Medium
+The same paracetamol is given for every disease regardless of symptoms,Medical,Medium
+Doctor is never available at night during emergency,Medical,High
+Ambulance driver is rude,Medical,Medium
+doctor behavior is not good,Medical,Low
+The same paracetamol is given for every disease regardless of symptoms,Medical,Medium
+The same paracetamol is given for every disease regardless of symptoms,Medical,Medium
+The dispensary is closed on weekends when students need it,Medical,Medium
+The dispensary is closed on weekends when students need it,Medical,Medium
+"Medicines are expired sometimes, check before taking",Medical,Medium
+Doctor is never available at night during emergency,Medical,High
+"Medicines are expired sometimes, check before taking",Medical,Medium
+Basketball court needs maintenance,Sports,Low
+"Sports equipment not available, bring your own",Sports,Low
+"Sports equipment not available, bring your own",Sports,Low
+no proper coach or guide,Sports,Low
+Ground is always occupied by seniors,Sports,Medium
+"Timings are very restricted, cant play after 8 PM",Sports,Medium
+no proper coach or guide,Sports,Low
+Ground is always occupied by seniors,Sports,Medium
+"Timings are very restricted, cant play after 8 PM",Sports,Medium
+"Timings are very restricted, cant play after 8 PM",Sports,Medium
+Basketball court needs maintenance,Sports,Low
+Lights not working on the tennis court,Sports,Medium
+Gym equipment is broken since 6 months,Sports,Medium
+Basketball court needs maintenance,Sports,Low
+"Sports equipment not available, bring your own",Sports,Low
+Gym equipment is broken since 6 months,Sports,Medium
+Gym equipment is broken since 6 months,Sports,Medium
+Ground is always occupied by seniors,Sports,Medium
+no proper coach or guide,Sports,Low
+The exam timetable clashes with two subjects on the same day,Exam Issue,High
+Answer sheets were not shown to students after evaluation,Exam Issue,Medium
+Supplementary exam fees are too high and unfair,Exam Issue,Medium
+The exam hall had no working fans and it was very hot,Exam Issue,Medium
+Question paper had errors and wrong questions in the exam,Exam Issue,High
+Students were not informed about the change in exam pattern,Exam Issue,Medium
+Internal marks are not matching with what was told by professor,Exam Issue,Medium
+Practical exam was cancelled without any prior notice,Exam Issue,Medium
+Online exam portal crashed during the examination,Exam Issue,High
+Grace marks were not applied even though policy allows it,Exam Issue,Medium
+The re-evaluation process takes more than 3 months,Exam Issue,Medium
+Exam seating arrangement was very congested and uncomfortable,Exam Issue,Low
+Mark sheet has printing errors and wrong subject codes,Exam Issue,Medium
+Exam invigilator was rude and created unnecessary panic,Exam Issue,Medium
+Students caught copying were not given any proper hearing,Exam Issue,Medium
+Semester results were delayed by 2 months without explanation,Exam Issue,Medium
+The passing criteria was changed after the exam was conducted,Exam Issue,High
+Admit card was not available on the portal before exam date,Exam Issue,Medium
+Previous year question papers are not available in the library,Exam Issue,Low
+Exam center was too far and no transport was arranged,Exam Issue,Medium
+Open book exam guidelines were not clearly communicated,Exam Issue,Low
+Lab exam equipment was faulty and students lost marks,Exam Issue,High
+Viva voce examination was conducted in a biased manner,Exam Issue,High
+Assignment submission deadline was too short and unrealistic,Exam Issue,Medium
+Grade card was not updated on the student portal after recheck,Exam Issue,Medium
+Professor does not explain concepts clearly in class,Faculty Issue,Medium
+Faculty member discriminates based on gender in the classroom,Faculty Issue,High
+Professor gives extremely difficult assignments with no guidance,Faculty Issue,Medium
+Teacher does not respond to emails or messages from students,Faculty Issue,Low
+Faculty member makes personal comments about students appearance,Faculty Issue,High
+Professor cancelled all tutorials and only takes lectures,Faculty Issue,Medium
+The substitute teacher has no knowledge of the subject,Faculty Issue,Medium
+Faculty member gives attendance to only those who agree with them,Faculty Issue,High
+Professor refuses to clear doubts after class hours,Faculty Issue,Low
+Teacher uses outdated teaching methods with no practical examples,Faculty Issue,Medium
+Faculty member shares exam questions with selected students only,Faculty Issue,High
+Professor comes to class 20 minutes late every day,Faculty Issue,Medium
+Faculty is not available during office hours for consultation,Faculty Issue,Low
+Teacher marks absent even when student is present in class,Faculty Issue,High
+Professor does not follow the official syllabus properly,Faculty Issue,Medium
+Faculty member uses mobile phone during the entire lecture,Faculty Issue,Low
+Professor threatens to fail students who question teaching methods,Faculty Issue,High
+Lab assistant does not help students during practical sessions,Faculty Issue,Medium
+Teacher does not upload lecture notes or study materials online,Faculty Issue,Low
+Faculty member is always absent on Mondays and Saturdays,Faculty Issue,Medium
+Professor shows favoritism and helps only a few students,Faculty Issue,Medium
+Guest lecturer was unprepared and wasted the entire class period,Faculty Issue,Low
+Faculty does not provide feedback on submitted assignments,Faculty Issue,Low
+Professor humiliates students publicly for asking questions,Faculty Issue,High
+Teacher has not completed even half the syllabus before exams,Faculty Issue,High
+Library does not have enough copies of reference books,Library Issue,Medium
+The library Wi-Fi is not accessible to all students,Library Issue,Medium
+Library air conditioning is not working and it is very hot,Library Issue,Low
+Books are not arranged properly and hard to find on shelves,Library Issue,Low
+Library charges fine even for one day late book return,Library Issue,Low
+The digital library portal is not working since last month,Library Issue,Medium
+Library staff does not allow group study or discussion,Library Issue,Low
+New edition textbooks requested 6 months ago are still not bought,Library Issue,Medium
+Library closes at 5 PM which is too early for students,Library Issue,Medium
+There are not enough power outlets for laptop charging in library,Library Issue,Low
+Library membership card process is very slow and complicated,Library Issue,Low
+E-books and online journal subscriptions have expired,Library Issue,Medium
+Noise level in the library is very high and disturbing,Library Issue,Medium
+Library reading room lights are dim and cause eye strain,Library Issue,Low
+Book reservation system is not working on the portal,Library Issue,Low
+Library does not have any magazines or newspapers section,Library Issue,Low
+The library printer charges are too high for students,Library Issue,Low
+Study rooms in library cannot be booked by students,Library Issue,Low
+Library catalogue system is outdated and search does not work,Library Issue,Medium
+Books borrowed by faculty are never returned to the library,Library Issue,Medium
+Library security guard does not allow bags inside,Library Issue,Low
+There is no separate section for competitive exam books,Library Issue,Low
+Library does not open on Sundays during exam preparation,Library Issue,Medium
+Water cooler near library is broken and students have to go far,Library Issue,Low
+Library computers are very old and freeze frequently,Library Issue,Medium
+Senior students demand money from juniors in the hostel,Ragging / Harassment,High
+A group of students is intimidating freshers during lunch break,Ragging / Harassment,High
+Junior students are forced to sing and dance by seniors at night,Ragging / Harassment,High
+Threatening messages are being sent to first year students online,Ragging / Harassment,High
+Senior students are not allowing juniors to sit in the canteen,Ragging / Harassment,High
+A student was locked inside the bathroom by seniors as punishment,Ragging / Harassment,High
+Freshers are being forced to carry bags and do errands for seniors,Ragging / Harassment,High
+Students are being called names and humiliated based on their region,Ragging / Harassment,High
+A group of seniors is creating fear among junior students on campus,Ragging / Harassment,High
+Verbal abuse and name calling happening regularly in the hostel,Ragging / Harassment,High
+Students are afraid to report ragging due to fear of retaliation,Ragging / Harassment,High
+Senior students forced a junior to miss classes for personal work,Ragging / Harassment,High
+Inappropriate comments made about female students in class groups,Ragging / Harassment,High
+A student was pushed and shoved by seniors in the sports ground,Ragging / Harassment,High
+Juniors are being publicly humiliated and made fun of by seniors,Ragging / Harassment,High
+Anti-ragging committee is not taking any complaints seriously,Ragging / Harassment,High
+First year students are being forced to buy food for seniors daily,Ragging / Harassment,High
+Seniors are threatening to spoil academic records of junior students,Ragging / Harassment,High
+A student reported ragging but no action was taken by administration,Ragging / Harassment,High
+Constant bullying and mental pressure from senior batch students,Ragging / Harassment,High
+The college main gate security system is not functioning,Infrastructure,Medium
+Classroom benches are broken and uncomfortable for long lectures,Infrastructure,Low
+There is no proper drainage system and campus floods during rain,Infrastructure,Medium
+CCTV cameras on campus are not working for security purposes,Infrastructure,High
+The college auditorium sound system is not working properly,Infrastructure,Low
+Solar panels on the rooftop are damaged and not generating power,Infrastructure,Low
+The campus road has potholes and is dangerous for two wheelers,Infrastructure,Medium
+Fire alarm system in the academic block is not functional,Infrastructure,High
+College building paint is peeling off and walls are in bad condition,Infrastructure,Low
+The elevator in the department building has been out of service for months,Infrastructure,Medium
+Wi-Fi router in the seminar hall needs replacement and upgrade,Infrastructure,Medium
+Laboratory exhaust fans are not working and fumes are dangerous,Infrastructure,High
+Drinking water pipeline is leaking and wasting water on campus,Infrastructure,Medium
+Backup generator takes too long to start during power outages,Infrastructure,Medium
+Smart board in classroom is not connected and never used,Infrastructure,Low
+No counseling service available for students with mental health issues,Other,High
+The college website is outdated and does not have correct information,Other,Low
+Student union elections are not being conducted fairly,Other,Medium
+Career guidance cell does not organize any workshops or seminars,Other,Low
+No proper waste management system and dustbins are overflowing,Other,Medium
+The college administration office closes too early at 3 PM,Other,Low
+Alumni network is not active and no alumni events are organized,Other,Low
+Student feedback is never taken seriously by the management,Other,Medium
+There is no proper parking system and vehicles get scratched,Other,Low
+The college transport bus does not follow the schedule properly,Other,Medium
+Scholarship disbursement process is very slow and delayed,Other,Medium
+No internship support or guidance provided by the placement cell,Other,Medium
+First aid kit is not available in any of the department buildings,Other,High
+The cafeteria vending machine has been out of order for weeks,Other,Low
+College ID card replacement process charges too much money,Other,Low
+The hostel elevator is not working and senior floor students suffer,Hostel,Medium
+Hostel mess timings are very inconvenient for morning classes,Hostel,Medium
+The hostel gate closes too early and students cannot return late,Hostel,Low
+Power backup in hostel takes more than 30 minutes to start,Hostel,Medium
+Hostel room doors do not have proper locks for safety,Hostel,High
+The hostel common area TV remote is broken and channels cannot be changed,Hostel,Low
+Hostel laundry machine is broken and clothes pile up for days,Hostel,Medium
+The hostel terrace is in dangerous condition and needs repair,Hostel,High
+Hostel visitors are not allowed even during daytime hours,Hostel,Low
+The hostel kitchen is unhygienic and needs deep cleaning,Hostel,Medium
+The course registration portal crashes every semester during enrollment,Academics,Medium
+Guest lectures are cancelled frequently without any replacement class,Academics,Medium
+Students are not informed about syllabus changes until exam time,Academics,Medium
+The grading curve is unfair and does not reflect actual performance,Academics,Medium
+Workshop and lab sessions are overcrowded with too many students,Academics,Medium
+Elective subject options are very limited and not interesting,Academics,Low
+Academic calendar is released too late for students to plan,Academics,Low
+Study material provided is insufficient and outdated for the course,Academics,Medium
+Research opportunities are not available for undergraduate students,Academics,Low
+Industrial visits promised in the prospectus never happen,Academics,Medium
+The mess does not provide any options for vegetarian and vegan students,Mess,Medium
+Water served in the mess is not filtered and tastes bad,Mess,Medium
+Mess food portions are too small and students remain hungry,Mess,Medium
+The mess does not display the menu and serves random items,Mess,Low
+Mess breakfast timing is too early at 7 AM for students,Mess,Low
+Food quality drops significantly during weekends in the mess,Mess,Medium
+Mess charges have increased but food quality has not improved,Mess,Medium
+There are no special meal options for students with allergies,Mess,Medium
+The mess kitchen is visible to students and looks very dirty,Mess,High
+Mess workers do not wear gloves or caps while serving food,Mess,Medium
+There is no female doctor available in the college medical center,Medical,High
+Medical center does not have basic equipment like BP monitor,Medical,Medium
+The ambulance on campus is in very poor condition and unreliable,Medical,High
+Students with chronic conditions get no regular medical support,Medical,Medium
+Medical records of students are not maintained properly,Medical,Medium
+The medical center does not provide dental or eye checkup facility,Medical,Low
+Health insurance process for students is very complicated,Medical,Low
+First aid training is not provided to hostel wardens or staff,Medical,Medium
+Medical center has very limited working hours from 10 AM to 4 PM,Medical,Medium
+Pharmacy on campus does not stock essential medicines,Medical,Medium
+The swimming pool has been closed for over a year without reason,Sports,Medium
+Sports quota students do not get any extra practice time,Sports,Medium
+College does not fund students for inter-college sports tournaments,Sports,Medium
+The running track is damaged and runners risk getting injured,Sports,High
+No separate changing room for female athletes on campus,Sports,High
+Annual sports day has not been organized for the last 2 years,Sports,Low
+Cricket pitch is poorly maintained and not safe for playing,Sports,Medium
+Table tennis table in recreation room is broken since months,Sports,Low
+Volleyball and basketball nets are torn and need replacement,Sports,Low
+The yoga and fitness room is locked and never available for use,Sports,Low
+I am satisfied with the college facilities overall,No Issue,Low
+No complaints at all the college is doing a great job,No Issue,Low
+Everything is running smoothly in the campus,No Issue,Low
+The services are satisfactory and I have no issues,No Issue,Low
+All facilities are well maintained and working properly,No Issue,Low

@@ -1,12 +1,13 @@
 """
-predict.py – Load trained models and predict category + priority for a complaint.
+predict.py - Load trained models and predict category + priority for a complaint.
+Extracts keywords to help administrators quickly understand the issue.
 """
 
 from model import (
     clean_text,
     load_model,
-    detect_sentiment,
     priority_to_score,
+    extract_keywords,
     CATEGORY_MODEL_PATH,
     PRIORITY_MODEL_PATH,
 )
@@ -25,56 +26,60 @@ def _load_models():
 
 def predict(text: str) -> dict:
     """
-    Predict category, priority, and sentiment for a complaint text.
+    Predict category, extract keywords, and determine priority for a complaint.
 
     Returns:
         {
-            "category": str,
-            "priority": str,
-            "priorityScore": int,
-            "sentiment": str,
-            "cleaned_text": str,
+            "category": str,          # Classification (Hostel, Mess, etc.)
+            "keywords": list[str],    # Top keywords for admin quick view
+            "priority": str,          # High/Medium/Low (for sorting)
+            "priorityScore": int,     # 3/2/1 (for sorting)
         }
     """
     _load_models()
     cleaned = clean_text(text)
 
+    # Predict category and priority
     category = _cat_model.predict([cleaned])[0]
     priority = _pri_model.predict([cleaned])[0]
 
-    # Get probability scores
+    # Extract keywords using TF-IDF scores from the category model
+    keywords = extract_keywords(text, _cat_model, top_n=5)
+
+    # Confidence scores
     cat_probs = _cat_model.predict_proba([cleaned])[0]
     cat_confidence = float(max(cat_probs))
 
-    pri_probs = _pri_model.predict_proba([cleaned])[0]
-    pri_confidence = float(max(pri_probs))
-
-    sentiment = detect_sentiment(text)
     priority_score = priority_to_score(priority)
 
     return {
         'category': category,
+        'keywords': keywords,
         'priority': priority,
         'priorityScore': priority_score,
-        'sentiment': sentiment,
         'category_confidence': round(cat_confidence, 3),
-        'priority_confidence': round(pri_confidence, 3),
-        'cleaned_text': cleaned,
     }
 
 
 if __name__ == '__main__':
-    # Quick test
-    samples = [
-        'WiFi is not working in hostel since 3 days',
-        'There is ragging and harassment happening in the college hostel',
-        'Library books are not updated and old edition',
-        'Professor does not attend classes regularly',
-        'The hostel room has cockroaches and dirty bathrooms',
-    ]
-    for s in samples:
-        result = predict(s)
-        print(f'\nText     : {s}')
-        print(f'Category : {result["category"]} ({result["category_confidence"]})')
-        print(f'Priority : {result["priority"]} / Score {result["priorityScore"]} ({result["priority_confidence"]})')
-        print(f'Sentiment: {result["sentiment"]}')
+    print('=' * 60)
+    print('  College Complaint Analyzer - NLP Model')
+    print('  Type a complaint and press Enter to analyze')
+    print('  Type "quit" to exit')
+    print('=' * 60)
+
+    while True:
+        print()
+        text = input('Enter complaint: ').strip()
+        if text.lower() in ('quit', 'exit', 'q'):
+            print('Goodbye!')
+            break
+        if len(text) < 3:
+            print('  Please enter a longer complaint.')
+            continue
+
+        result = predict(text)
+        print(f'\n  Category : {result["category"]}')
+        print(f'  Keywords : {", ".join(result["keywords"])}')
+        print(f'  Priority : {result["priority"]}')
+
